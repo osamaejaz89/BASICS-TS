@@ -34,5 +34,5 @@ const myPromise = new Promise((resolve, reject) => {
     }, 1000);
 });
 myPromise.then((result) => {
-    console.log(result);
+    console.log(result.split(' '));
 });
