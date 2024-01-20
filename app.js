@@ -24,6 +24,6 @@ buttonElement === null || buttonElement === void 0 ? void 0 : buttonElement.addE
     var stringResult = add(num1, num2);
     textResults.push(stringResult);
     console.log(stringResult);
-    printResult({ val: result, timeStamp: new Date() });
+    printResult({ val: result, timestamp: new Date() });
     console.log(numResults, textResults);
 });
